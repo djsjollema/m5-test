@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "m5",
+    "maps": [
+        {
+            "name": "M5actions",
+            "id": "cda87784-c5fa-4ed6-b5b6-19a2e8b606df",
+            "actions": [
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "0385aeb8-a0c7-436b-9255-0f5e90d9f7a0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "b26fccaf-b44e-49d0-a412-e7c3a62b08f3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6ad504e9-9a8e-43bc-acc4-288b11436945",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2db4c51-96e9-4d9d-a293-cb512ee309d0",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
