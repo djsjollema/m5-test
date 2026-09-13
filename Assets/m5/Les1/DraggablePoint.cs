@@ -5,7 +5,6 @@ public class DraggablePoint : MonoBehaviour
 {
     [SerializeField] InputActionReference pointAction;
     [SerializeField] InputActionReference pressAction;
-
     private bool isDragging = false;
     void Start()
     {
