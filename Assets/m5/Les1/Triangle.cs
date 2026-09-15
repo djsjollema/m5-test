@@ -15,9 +15,9 @@ public class Triangle : MonoBehaviour
 
     void Update()
     {
-        lr.SetPosition(0, pointA.position);
-        lr.SetPosition(1, pointB.position);
-        lr.SetPosition(2, pointC.position);
+        lr.SetPosition(0, pointA.localPosition);
+        lr.SetPosition(1, pointB.localPosition);
+        lr.SetPosition(2, pointC.localPosition);
 
     }
 }
