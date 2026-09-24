@@ -1,8 +1,11 @@
 using UnityEngine;
 
-public class Les3a : MonoBehaviour
+public class Les4 : MonoBehaviour
 {
     Matrix2x2 M;
+    Matrix2x2 links;
+    Matrix2x2 Rechts;
+    
 
     Vector3 v = new Vector3(1, 0, 0);
     Vector3 u = new Vector3(0, 1, 0);
